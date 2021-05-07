@@ -1,0 +1,21 @@
+% Título: Teorama de existencis
+% Descripción: Script para graficar una funcion de la forma f (x) = -1/(1+x^2)
+% Autor: Ana Lilia Arce Salvador (analili6) al5853542@gmail.com
+% Fecha: 20210506
+% Sesión: 3
+
+% limpiar variables
+ clear
+ % f (x) = -1/(1+x^2)
+% Rango
+ x = -2: 0.1: 4; 
+% Valor de la función 
+ y=-1./(1-x.^2);
+% Dibujar x, y
+ plot(x, y);
+% Titulo
+ title("f (x) = -1/(1+x.^2)");
+% Etiqueta para x
+ xlabel ("x");
+% Etiqueta para y
+ ylabel ("y");
